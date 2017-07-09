@@ -30,7 +30,7 @@ import { DashboardComponent} from './dashboard.componet'
       redirectTo:'/dashboard',
       pathMatch:'full'
     },{
-      path:'detail:id',
+      path:'detail/:id',
       component:HeroDetailComponent
     }])
   ],

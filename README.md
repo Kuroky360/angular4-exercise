@@ -1,2 +1,2 @@
 # angular4-exercise
-just a helloworld for ng4
+Just a helloworld for ng4
