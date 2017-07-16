@@ -1,4 +1,8 @@
 <h2>My Heroes</h2>
+<div>
+    <label>Hero name:</label><input #heroName/>
+    <button (click)="add(heroName.value);heroName.value=''">Add</button>
+</div>
 <ul class="heroes">
     <li *ngFor="let o of heroes" (click)="onSelect(o)" [class.selected]="o===selectedHero">
         <span class="badge">{{o.id}}</span>{{o.name}}
